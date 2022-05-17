@@ -16,6 +16,8 @@ public class app {
         b = sc.nextInt();
         cal.add(a, b);
         cal.mul(a, b);
+        cal.sub(a, b);
+        cal.div(a, b);
 	}
 
 }
