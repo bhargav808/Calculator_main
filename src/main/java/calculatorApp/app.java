@@ -18,6 +18,8 @@ public class app {
         cal.mul(a, b);
         cal.sub(a, b);
         cal.div(a, b);
+        sc.close();
+
 	}
 
 }

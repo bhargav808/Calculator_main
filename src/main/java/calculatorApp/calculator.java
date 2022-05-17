@@ -2,22 +2,22 @@ package calculatorApp;
 
 public class calculator {
 
-	public int add(int i, int j) {
+	public static int add(int i, int j) {
 		System.out.println("Addition of " + i + "," + j + " is: " + (i + j));
 		return i + j;
 	}
 
-	public int mul(int i, int j) {
+	public static int mul(int i, int j) {
 		System.out.println("Multiplication of " + i + "," + j + " is: " + (i * j));
 		return i * j;
 	}
 
-	public int sub(int i, int j) {
+	public static int sub(int i, int j) {
 		System.out.println("Subtraction of " + i + "," + j + " is: " + (i - j));
 		return i - j;
 	}
 
-	public double div(double i, double j) {
+	public static double div(double i, double j) {
 		if (j != 0) {
 			System.out.println("Division of " + i + "," + j + " is: " + (i / j));
 			return i / j;
